@@ -1,8 +1,8 @@
-##first triel##
-**this is bold**
-*this is italic*
-*this a bullete 1
-this ia as bullete 2
+# first triel
+## **this is bold**
+### *this is italic*
+* this a bullete 1
+* this ia as bullete 2
 ```
 java
 
