@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="69.0dip" android:width="70.0dip" android:viewportWidth="70.0" android:viewportHeight="69.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/basic_operator_bg" android:pathData="M34.833,0L34.833,0A34.333,34.333 0,0 1,69.167 34.333L69.167,34.333A34.333,34.333 0,0 1,34.833 68.667L34.833,68.667A34.333,34.333 0,0 1,0.5 34.333L0.5,34.333A34.333,34.333 0,0 1,34.833 0z" />
+    <path android:fillColor="@color/basic_operator_tv" android:pathData="M34.834,28.202C35.511,28.202 36.06,27.653 36.06,26.976C36.06,26.299 35.511,25.75 34.834,25.75C34.156,25.75 33.607,26.299 33.607,26.976C33.607,27.653 34.156,28.202 34.834,28.202Z" android:strokeColor="@color/basic_operator_tv" android:strokeWidth="2.575" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:fillColor="@color/basic_operator_tv" android:pathData="M34.834,42.916C35.511,42.916 36.06,42.367 36.06,41.69C36.06,41.013 35.511,40.464 34.834,40.464C34.156,40.464 33.607,41.013 33.607,41.69C33.607,42.367 34.156,42.916 34.834,42.916Z" android:strokeColor="@color/basic_operator_tv" android:strokeWidth="2.575" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:fillColor="#00000000" android:pathData="M26.25,34.333H43.417" android:strokeColor="@color/basic_operator_tv" android:strokeWidth="2.575" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

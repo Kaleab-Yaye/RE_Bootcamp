@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_unit_speed__0" android:pathData="M20.391,34.307L22.361,32.285C25.513,33.882 28.852,30.453 27.296,27.22L34.592,19.732C35.05,19.262 35.05,18.501 34.592,18.031C34.134,17.561 33.392,17.561 32.935,18.031L25.639,25.519C22.487,23.922 19.149,27.351 20.704,30.584L18.734,32.606C18.276,33.076 18.276,33.837 18.734,34.307C19.191,34.777 19.934,34.777 20.391,34.307ZM24,27.528C24.738,27.528 25.339,28.144 25.339,28.902C25.265,30.725 22.735,30.724 22.662,28.902C22.662,28.144 23.262,27.528 24,27.528Z" />
+    <path android:fillColor="@drawable/$ic_unit_speed__1" android:pathData="M7.302,17.618L15.88,22.701C16.469,21.891 17.17,21.172 17.959,20.568L13.006,11.763C10.742,13.299 8.798,15.294 7.302,17.618Z" />
+    <path android:fillColor="@drawable/$ic_unit_speed__2" android:pathData="M22.828,18.58V8.411C20.039,8.577 17.403,9.332 15.034,10.557L19.987,19.362C20.875,18.967 21.83,18.699 22.828,18.58Z" />
+    <path android:fillColor="@drawable/$ic_unit_speed__3" android:pathData="M14.67,24.783L6.091,19.699C4.898,22.131 4.162,24.837 4,27.699H13.908C14.024,26.675 14.285,25.695 14.67,24.783Z" />
+    <path android:fillColor="@drawable/$ic_unit_speed__4" android:pathData="M34.092,27.699H44C43.838,24.837 43.102,22.131 41.909,19.699L33.33,24.783C33.715,25.695 33.976,26.675 34.092,27.699Z" />
+    <path android:fillColor="@drawable/$ic_unit_speed__5" android:pathData="M13.909,30.104H4C4.182,33.295 5.087,36.405 6.645,39.167C6.969,39.742 7.685,39.939 8.246,39.606L14.767,35.74C15.327,35.408 15.519,34.672 15.196,34.097C14.505,32.871 14.069,31.51 13.909,30.104Z" />
+    <path android:fillColor="@drawable/$ic_unit_speed__6" android:pathData="M32.804,34.097C32.481,34.672 32.672,35.408 33.233,35.74L39.754,39.606C40.314,39.939 41.031,39.742 41.355,39.167C42.913,36.405 43.818,33.295 44,30.104H34.091C33.931,31.51 33.495,32.871 32.804,34.097Z" />
+    <path android:fillColor="@drawable/$ic_unit_speed__7" android:pathData="M32.966,10.557C30.597,9.332 27.961,8.577 25.172,8.411V18.58C26.17,18.699 27.125,18.967 28.013,19.362L32.966,10.557Z" />
+    <path android:fillColor="@drawable/$ic_unit_speed__8" android:pathData="M27.766,38.005H20.235C18.68,38.069 18.681,40.348 20.235,40.411H27.766C29.321,40.347 29.319,38.068 27.766,38.005Z" />
+    <path android:fillColor="@drawable/$ic_unit_speed__9" android:pathData="M36.249,16.33C37.138,17.243 37.45,18.526 37.186,19.7L40.699,17.618C39.203,15.294 37.259,13.299 34.994,11.763L32.967,15.366C34.044,15.112 35.309,15.365 36.249,16.33Z" />
+</vector>

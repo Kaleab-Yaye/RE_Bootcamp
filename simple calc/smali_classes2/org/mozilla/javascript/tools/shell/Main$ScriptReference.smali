@@ -1,0 +1,61 @@
+.class Lorg/mozilla/javascript/tools/shell/Main$ScriptReference;
+.super Ljava/lang/ref/SoftReference;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/mozilla/javascript/tools/shell/Main;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "ScriptReference"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/ref/SoftReference<",
+        "Lorg/mozilla/javascript/Script;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field digest:[B
+
+.field path:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;[BLorg/mozilla/javascript/Script;Ljava/lang/ref/ReferenceQueue;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "[B",
+            "Lorg/mozilla/javascript/Script;",
+            "Ljava/lang/ref/ReferenceQueue<",
+            "Lorg/mozilla/javascript/Script;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0, p3, p4}, Ljava/lang/ref/SoftReference;-><init>(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lorg/mozilla/javascript/tools/shell/Main$ScriptReference;->path:Ljava/lang/String;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Lorg/mozilla/javascript/tools/shell/Main$ScriptReference;->digest:[B
+
+    .line 7
+    .line 8
+    return-void
+.end method

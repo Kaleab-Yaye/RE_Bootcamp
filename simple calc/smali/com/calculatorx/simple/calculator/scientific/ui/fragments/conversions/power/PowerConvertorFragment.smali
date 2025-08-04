@@ -1,0 +1,3060 @@
+.class public final Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment;
+.super Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment<",
+        "Lp4/c1;",
+        ">;",
+        "Landroid/view/View$OnClickListener;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final synthetic w:I
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    const v0, 0x7f0d005d
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-direct {p0, v0}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;-><init>(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method
+
+
+# virtual methods
+.method public final D()V
+    .locals 1
+
+    .line 1
+    const v0, 0x7f0a02ad
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p0, v0}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseNavFragment;->F(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method
+
+.method public final K()V
+    .locals 3
+
+    .line 1
+    new-instance v0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment$onViewCreatedEverytime$1;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p0}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment$onViewCreatedEverytime$1;-><init>(Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v1, "key1"
+
+    .line 7
+    .line 8
+    invoke-static {p0, v1, v0}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseNavFragment;->y(Landroidx/fragment/app/Fragment;Ljava/lang/String;Lb8/l;)V
+
+    .line 9
+    .line 10
+    .line 11
+    new-instance v0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment$onViewCreatedEverytime$2;
+
+    .line 12
+    .line 13
+    invoke-direct {v0, p0}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment$onViewCreatedEverytime$2;-><init>(Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment;)V
+
+    .line 14
+    .line 15
+    .line 16
+    const-string v1, "key2"
+
+    .line 17
+    .line 18
+    invoke-static {p0, v1, v0}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseNavFragment;->y(Landroidx/fragment/app/Fragment;Ljava/lang/String;Lb8/l;)V
+
+    .line 19
+    .line 20
+    .line 21
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 22
+    .line 23
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 24
+    .line 25
+    .line 26
+    check-cast v0, Lp4/c1;
+
+    .line 27
+    .line 28
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 29
+    .line 30
+    iget-object v0, v0, Lp4/i;->g:Lcom/google/android/material/imageview/ShapeableImageView;
+
+    .line 31
+    .line 32
+    invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 33
+    .line 34
+    .line 35
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 36
+    .line 37
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 38
+    .line 39
+    .line 40
+    check-cast v0, Lp4/c1;
+
+    .line 41
+    .line 42
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 43
+    .line 44
+    iget-object v0, v0, Lp4/i;->t:Lcom/google/android/material/imageview/ShapeableImageView;
+
+    .line 45
+    .line 46
+    invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 47
+    .line 48
+    .line 49
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 50
+    .line 51
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 52
+    .line 53
+    .line 54
+    check-cast v0, Lp4/c1;
+
+    .line 55
+    .line 56
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 57
+    .line 58
+    iget-object v0, v0, Lp4/i;->m:Lcom/google/android/material/imageview/ShapeableImageView;
+
+    .line 59
+    .line 60
+    invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 61
+    .line 62
+    .line 63
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 64
+    .line 65
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 66
+    .line 67
+    .line 68
+    check-cast v0, Lp4/c1;
+
+    .line 69
+    .line 70
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 71
+    .line 72
+    iget-object v0, v0, Lp4/i;->s:Lcom/google/android/material/imageview/ShapeableImageView;
+
+    .line 73
+    .line 74
+    invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 75
+    .line 76
+    .line 77
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 78
+    .line 79
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 80
+    .line 81
+    .line 82
+    check-cast v0, Lp4/c1;
+
+    .line 83
+    .line 84
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 85
+    .line 86
+    iget-object v0, v0, Lp4/i;->p:Lcom/google/android/material/imageview/ShapeableImageView;
+
+    .line 87
+    .line 88
+    invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 89
+    .line 90
+    .line 91
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 92
+    .line 93
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 94
+    .line 95
+    .line 96
+    check-cast v0, Lp4/c1;
+
+    .line 97
+    .line 98
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 99
+    .line 100
+    iget-object v0, v0, Lp4/i;->j:Lcom/google/android/material/imageview/ShapeableImageView;
+
+    .line 101
+    .line 102
+    invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 103
+    .line 104
+    .line 105
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 106
+    .line 107
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 108
+    .line 109
+    .line 110
+    check-cast v0, Lp4/c1;
+
+    .line 111
+    .line 112
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 113
+    .line 114
+    iget-object v0, v0, Lp4/i;->i:Lcom/google/android/material/imageview/ShapeableImageView;
+
+    .line 115
+    .line 116
+    invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 117
+    .line 118
+    .line 119
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 120
+    .line 121
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 122
+    .line 123
+    .line 124
+    check-cast v0, Lp4/c1;
+
+    .line 125
+    .line 126
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 127
+    .line 128
+    iget-object v0, v0, Lp4/i;->o:Lcom/google/android/material/imageview/ShapeableImageView;
+
+    .line 129
+    .line 130
+    invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 131
+    .line 132
+    .line 133
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 134
+    .line 135
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 136
+    .line 137
+    .line 138
+    check-cast v0, Lp4/c1;
+
+    .line 139
+    .line 140
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 141
+    .line 142
+    iget-object v0, v0, Lp4/i;->n:Lcom/google/android/material/imageview/ShapeableImageView;
+
+    .line 143
+    .line 144
+    invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 145
+    .line 146
+    .line 147
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 148
+    .line 149
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 150
+    .line 151
+    .line 152
+    check-cast v0, Lp4/c1;
+
+    .line 153
+    .line 154
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 155
+    .line 156
+    iget-object v0, v0, Lp4/i;->h:Lcom/google/android/material/imageview/ShapeableImageView;
+
+    .line 157
+    .line 158
+    invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 159
+    .line 160
+    .line 161
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 162
+    .line 163
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 164
+    .line 165
+    .line 166
+    check-cast v0, Lp4/c1;
+
+    .line 167
+    .line 168
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 169
+    .line 170
+    iget-object v0, v0, Lp4/i;->l:Lcom/google/android/material/imageview/ShapeableImageView;
+
+    .line 171
+    .line 172
+    invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 173
+    .line 174
+    .line 175
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 176
+    .line 177
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 178
+    .line 179
+    .line 180
+    check-cast v0, Lp4/c1;
+
+    .line 181
+    .line 182
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 183
+    .line 184
+    iget-object v0, v0, Lp4/i;->c:Lcom/google/android/material/textview/MaterialTextView;
+
+    .line 185
+    .line 186
+    invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 187
+    .line 188
+    .line 189
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 190
+    .line 191
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 192
+    .line 193
+    .line 194
+    check-cast v0, Lp4/c1;
+
+    .line 195
+    .line 196
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 197
+    .line 198
+    iget-object v0, v0, Lp4/i;->d:Lcom/google/android/material/imageview/ShapeableImageView;
+
+    .line 199
+    .line 200
+    invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 201
+    .line 202
+    .line 203
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 204
+    .line 205
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 206
+    .line 207
+    .line 208
+    check-cast v0, Lp4/c1;
+
+    .line 209
+    .line 210
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 211
+    .line 212
+    iget-object v0, v0, Lp4/i;->q:Landroid/widget/TextView;
+
+    .line 213
+    .line 214
+    const v1, 0x7f14016e
+
+    .line 215
+    .line 216
+    .line 217
+    invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    .line 218
+    .line 219
+    .line 220
+    move-result-object v1
+
+    .line 221
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 222
+    .line 223
+    .line 224
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 225
+    .line 226
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 227
+    .line 228
+    .line 229
+    check-cast v0, Lp4/c1;
+
+    .line 230
+    .line 231
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 232
+    .line 233
+    iget-object v0, v0, Lp4/i;->e:Lcom/google/android/material/imageview/ShapeableImageView;
+
+    .line 234
+    .line 235
+    new-instance v1, Ld5/a;
+
+    .line 236
+    .line 237
+    const/4 v2, 0x6
+
+    .line 238
+    invoke-direct {v1, p0, v2}, Ld5/a;-><init>(Ljava/lang/Object;I)V
+
+    .line 239
+    .line 240
+    .line 241
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 242
+    .line 243
+    .line 244
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 245
+    .line 246
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 247
+    .line 248
+    .line 249
+    check-cast v0, Lp4/c1;
+
+    .line 250
+    .line 251
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 252
+    .line 253
+    iget-object v0, v0, Lp4/i;->a:Landroid/widget/TextView;
+
+    .line 254
+    .line 255
+    new-instance v1, Lj5/b;
+
+    .line 256
+    .line 257
+    const/4 v2, 0x7
+
+    .line 258
+    invoke-direct {v1, p0, v2}, Lj5/b;-><init>(Landroidx/fragment/app/Fragment;I)V
+
+    .line 259
+    .line 260
+    .line 261
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 262
+    .line 263
+    .line 264
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 265
+    .line 266
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 267
+    .line 268
+    .line 269
+    check-cast v0, Lp4/c1;
+
+    .line 270
+    .line 271
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 272
+    .line 273
+    iget-object v0, v0, Lp4/i;->b:Landroid/widget/TextView;
+
+    .line 274
+    .line 275
+    new-instance v1, Lj5/c;
+
+    .line 276
+    .line 277
+    const/4 v2, 0x3
+
+    .line 278
+    invoke-direct {v1, p0, v2}, Lj5/c;-><init>(Landroidx/fragment/app/Fragment;I)V
+
+    .line 279
+    .line 280
+    .line 281
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 282
+    .line 283
+    .line 284
+    return-void
+.end method
+
+.method public final L()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 4
+    .line 5
+    .line 6
+    check-cast v0, Lp4/c1;
+
+    .line 7
+    .line 8
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 9
+    .line 10
+    iget-object v0, v0, Lp4/i;->a:Landroid/widget/TextView;
+
+    .line 11
+    .line 12
+    const-string v1, "Milli watt (mW)"
+
+    .line 13
+    .line 14
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 15
+    .line 16
+    .line 17
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 18
+    .line 19
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 20
+    .line 21
+    .line 22
+    check-cast v0, Lp4/c1;
+
+    .line 23
+    .line 24
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 25
+    .line 26
+    iget-object v0, v0, Lp4/i;->b:Landroid/widget/TextView;
+
+    .line 27
+    .line 28
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 29
+    .line 30
+    .line 31
+    const-string v0, "POWER_SCREEN"
+
+    .line 32
+    .line 33
+    invoke-static {v0}, La/a;->G(Ljava/lang/String;)V
+
+    .line 34
+    .line 35
+    .line 36
+    return-void
+.end method
+
+.method public final M(Ljava/lang/String;)V
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 4
+    .line 5
+    .line 6
+    check-cast v0, Lp4/c1;
+
+    .line 7
+    .line 8
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 9
+    .line 10
+    iget-object v0, v0, Lp4/i;->k:Lcom/google/android/material/textview/MaterialTextView;
+
+    .line 11
+    .line 12
+    invoke-static {v0}, Lcom/google/android/datatransport/runtime/a;->c(Lcom/google/android/material/textview/MaterialTextView;)I
+
+    .line 13
+    .line 14
+    .line 15
+    move-result v0
+
+    .line 16
+    const/4 v1, 0x0
+
+    .line 17
+    if-lez v0, :cond_0
+
+    .line 18
+    .line 19
+    const/4 v0, 0x1
+
+    .line 20
+    goto :goto_0
+
+    .line 21
+    :cond_0
+    move v0, v1
+
+    .line 22
+    :goto_0
+    if-eqz v0, :cond_1
+
+    .line 23
+    .line 24
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 25
+    .line 26
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 27
+    .line 28
+    .line 29
+    check-cast v0, Lp4/c1;
+
+    .line 30
+    .line 31
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 32
+    .line 33
+    iget-object v0, v0, Lp4/i;->r:Lcom/google/android/material/textview/MaterialTextView;
+
+    .line 34
+    .line 35
+    invoke-virtual {v0}, Landroidx/appcompat/widget/d0;->getText()Ljava/lang/CharSequence;
+
+    .line 36
+    .line 37
+    .line 38
+    move-result-object v0
+
+    .line 39
+    const-string v2, "getText(...)"
+
+    .line 40
+    .line 41
+    invoke-static {v0, v2}, Lc8/g;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 42
+    .line 43
+    .line 44
+    const-string v2, "Wrong Format"
+
+    .line 45
+    .line 46
+    invoke-static {v0, v2, v1}, Lkotlin/text/b;->Q(Ljava/lang/CharSequence;Ljava/lang/String;Z)Z
+
+    .line 47
+    .line 48
+    .line 49
+    move-result v0
+
+    .line 50
+    if-eqz v0, :cond_1
+
+    .line 51
+    .line 52
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 53
+    .line 54
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 55
+    .line 56
+    .line 57
+    check-cast v0, Lp4/c1;
+
+    .line 58
+    .line 59
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 60
+    .line 61
+    iget-object v0, v0, Lp4/i;->k:Lcom/google/android/material/textview/MaterialTextView;
+
+    .line 62
+    .line 63
+    iget-object v1, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 64
+    .line 65
+    invoke-static {v1}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 66
+    .line 67
+    .line 68
+    check-cast v1, Lp4/c1;
+
+    .line 69
+    .line 70
+    iget-object v1, v1, Lp4/c1;->l:Lp4/i;
+
+    .line 71
+    .line 72
+    iget-object v1, v1, Lp4/i;->r:Lcom/google/android/material/textview/MaterialTextView;
+
+    .line 73
+    .line 74
+    invoke-virtual {v1}, Landroidx/appcompat/widget/d0;->getText()Ljava/lang/CharSequence;
+
+    .line 75
+    .line 76
+    .line 77
+    move-result-object v1
+
+    .line 78
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    .line 79
+    .line 80
+    .line 81
+    move-result-object v1
+
+    .line 82
+    const-string v2, "="
+
+    .line 83
+    .line 84
+    const-string v3, ""
+
+    .line 85
+    .line 86
+    invoke-static {v1, v2, v3}, Lj8/f;->M(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 87
+    .line 88
+    .line 89
+    move-result-object v1
+
+    .line 90
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 91
+    .line 92
+    .line 93
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 94
+    .line 95
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 96
+    .line 97
+    .line 98
+    check-cast v0, Lp4/c1;
+
+    .line 99
+    .line 100
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 101
+    .line 102
+    iget-object v0, v0, Lp4/i;->r:Lcom/google/android/material/textview/MaterialTextView;
+
+    .line 103
+    .line 104
+    invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 105
+    .line 106
+    .line 107
+    :cond_1
+    iget-object v0, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 108
+    .line 109
+    invoke-static {v0}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 110
+    .line 111
+    .line 112
+    check-cast v0, Lp4/c1;
+
+    .line 113
+    .line 114
+    iget-object v0, v0, Lp4/c1;->l:Lp4/i;
+
+    .line 115
+    .line 116
+    iget-object v0, v0, Lp4/i;->k:Lcom/google/android/material/textview/MaterialTextView;
+
+    .line 117
+    .line 118
+    invoke-virtual {v0}, Landroidx/appcompat/widget/d0;->getText()Ljava/lang/CharSequence;
+
+    .line 119
+    .line 120
+    .line 121
+    move-result-object v0
+
+    .line 122
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    .line 123
+    .line 124
+    .line 125
+    move-result-object v0
+
+    .line 126
+    iget-object v1, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 127
+    .line 128
+    invoke-static {v1}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 129
+    .line 130
+    .line 131
+    check-cast v1, Lp4/c1;
+
+    .line 132
+    .line 133
+    iget-object v1, v1, Lp4/c1;->l:Lp4/i;
+
+    .line 134
+    .line 135
+    iget-object v1, v1, Lp4/i;->k:Lcom/google/android/material/textview/MaterialTextView;
+
+    .line 136
+    .line 137
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    .line 138
+    .line 139
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 140
+    .line 141
+    .line 142
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 143
+    .line 144
+    .line 145
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 146
+    .line 147
+    .line 148
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 149
+    .line 150
+    .line 151
+    move-result-object p1
+
+    .line 152
+    invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 153
+    .line 154
+    .line 155
+    return-void
+.end method
+
+.method public final N(D)V
+    .locals 16
+
+    .line 1
+    move-object/from16 v0, p0
+
+    .line 2
+    .line 3
+    move-wide/from16 v1, p1
+
+    .line 4
+    .line 5
+    iget-object v3, v0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 6
+    .line 7
+    invoke-static {v3}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 8
+    .line 9
+    .line 10
+    check-cast v3, Lp4/c1;
+
+    .line 11
+    .line 12
+    iget-object v3, v3, Lp4/c1;->l:Lp4/i;
+
+    .line 13
+    .line 14
+    iget-object v3, v3, Lp4/i;->r:Lcom/google/android/material/textview/MaterialTextView;
+
+    .line 15
+    .line 16
+    iget-object v4, v0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 17
+    .line 18
+    invoke-static {v4}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 19
+    .line 20
+    .line 21
+    check-cast v4, Lp4/c1;
+
+    .line 22
+    .line 23
+    iget-object v4, v4, Lp4/c1;->l:Lp4/i;
+
+    .line 24
+    .line 25
+    iget-object v4, v4, Lp4/i;->a:Landroid/widget/TextView;
+
+    .line 26
+    .line 27
+    invoke-virtual {v4}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
+
+    .line 28
+    .line 29
+    .line 30
+    move-result-object v4
+
+    .line 31
+    invoke-virtual {v4}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object v4
+
+    .line 35
+    iget-object v5, v0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 36
+    .line 37
+    invoke-static {v5}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 38
+    .line 39
+    .line 40
+    check-cast v5, Lp4/c1;
+
+    .line 41
+    .line 42
+    iget-object v5, v5, Lp4/c1;->l:Lp4/i;
+
+    .line 43
+    .line 44
+    iget-object v5, v5, Lp4/i;->b:Landroid/widget/TextView;
+
+    .line 45
+    .line 46
+    invoke-virtual {v5}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
+
+    .line 47
+    .line 48
+    .line 49
+    move-result-object v5
+
+    .line 50
+    invoke-virtual {v5}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    .line 51
+    .line 52
+    .line 53
+    move-result-object v5
+
+    .line 54
+    const-string v6, "fromUnit"
+
+    .line 55
+    .line 56
+    invoke-static {v4, v6}, Lc8/g;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 57
+    .line 58
+    .line 59
+    const-string v6, "toUnit"
+
+    .line 60
+    .line 61
+    invoke-static {v5, v6}, Lc8/g;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 62
+    .line 63
+    .line 64
+    invoke-virtual {v5}, Ljava/lang/String;->hashCode()I
+
+    .line 65
+    .line 66
+    .line 67
+    move-result v6
+
+    .line 68
+    const-wide v9, 0x41cdcd6500000000L    # 1.0E9
+
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    const-wide v13, 0x412e848000000000L    # 1000000.0
+
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    const-string v7, "Megawatt (MW)"
+
+    .line 79
+    .line 80
+    const-string v8, "Watt (W)"
+
+    .line 81
+    .line 82
+    const-string v12, "Milliwatt (mW)"
+
+    .line 83
+    .line 84
+    const-string v11, "Kilowatt (kW)"
+
+    .line 85
+    .line 86
+    const-string v15, "Horsepower (hp)"
+
+    .line 87
+    .line 88
+    sparse-switch v6, :sswitch_data_0
+
+    .line 89
+    .line 90
+    .line 91
+    goto/16 :goto_6
+
+    .line 92
+    .line 93
+    :sswitch_0
+    invoke-virtual {v5, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 94
+    .line 95
+    .line 96
+    move-result v5
+
+    .line 97
+    if-nez v5, :cond_0
+
+    .line 98
+    .line 99
+    goto/16 :goto_6
+
+    .line 100
+    .line 101
+    :cond_0
+    invoke-virtual {v4}, Ljava/lang/String;->hashCode()I
+
+    .line 102
+    .line 103
+    .line 104
+    move-result v5
+
+    .line 105
+    sparse-switch v5, :sswitch_data_1
+
+    .line 106
+    .line 107
+    .line 108
+    goto/16 :goto_6
+
+    .line 109
+    .line 110
+    :sswitch_1
+    invoke-virtual {v4, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 111
+    .line 112
+    .line 113
+    move-result v4
+
+    .line 114
+    if-nez v4, :cond_17
+
+    .line 115
+    .line 116
+    goto/16 :goto_6
+
+    .line 117
+    .line 118
+    :sswitch_2
+    invoke-virtual {v4, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 119
+    .line 120
+    .line 121
+    move-result v4
+
+    .line 122
+    if-nez v4, :cond_10
+
+    .line 123
+    .line 124
+    goto/16 :goto_6
+
+    .line 125
+    .line 126
+    :sswitch_3
+    invoke-virtual {v4, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 127
+    .line 128
+    .line 129
+    move-result v4
+
+    .line 130
+    if-nez v4, :cond_1
+
+    .line 131
+    .line 132
+    goto/16 :goto_6
+
+    .line 133
+    .line 134
+    :cond_1
+    div-double v4, v1, v9
+
+    .line 135
+    .line 136
+    goto/16 :goto_7
+
+    .line 137
+    .line 138
+    :sswitch_4
+    invoke-virtual {v4, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 139
+    .line 140
+    .line 141
+    move-result v4
+
+    .line 142
+    if-nez v4, :cond_2
+
+    .line 143
+    .line 144
+    goto/16 :goto_6
+
+    .line 145
+    .line 146
+    :cond_2
+    const/16 v4, 0x3e8
+
+    .line 147
+    .line 148
+    goto/16 :goto_3
+
+    .line 149
+    .line 150
+    :sswitch_5
+    invoke-virtual {v4, v15}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 151
+    .line 152
+    .line 153
+    move-result v4
+
+    .line 154
+    if-nez v4, :cond_3
+
+    .line 155
+    .line 156
+    goto/16 :goto_6
+
+    .line 157
+    .line 158
+    :cond_3
+    const/16 v4, 0x53d
+
+    .line 159
+    .line 160
+    goto/16 :goto_3
+
+    .line 161
+    .line 162
+    :sswitch_6
+    invoke-virtual {v5, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 163
+    .line 164
+    .line 165
+    move-result v5
+
+    .line 166
+    if-nez v5, :cond_4
+
+    .line 167
+    .line 168
+    goto/16 :goto_6
+
+    .line 169
+    .line 170
+    :cond_4
+    invoke-virtual {v4}, Ljava/lang/String;->hashCode()I
+
+    .line 171
+    .line 172
+    .line 173
+    move-result v5
+
+    .line 174
+    sparse-switch v5, :sswitch_data_2
+
+    .line 175
+    .line 176
+    .line 177
+    goto/16 :goto_6
+
+    .line 178
+    .line 179
+    :sswitch_7
+    invoke-virtual {v4, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 180
+    .line 181
+    .line 182
+    move-result v4
+
+    .line 183
+    if-nez v4, :cond_a
+
+    .line 184
+    .line 185
+    goto/16 :goto_6
+
+    .line 186
+    .line 187
+    :sswitch_8
+    invoke-virtual {v4, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 188
+    .line 189
+    .line 190
+    move-result v4
+
+    .line 191
+    if-nez v4, :cond_17
+
+    .line 192
+    .line 193
+    goto/16 :goto_6
+
+    .line 194
+    .line 195
+    :sswitch_9
+    invoke-virtual {v4, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 196
+    .line 197
+    .line 198
+    move-result v4
+
+    .line 199
+    if-nez v4, :cond_5
+
+    .line 200
+    .line 201
+    goto/16 :goto_6
+
+    .line 202
+    .line 203
+    :cond_5
+    const/16 v5, 0x3e8
+
+    .line 204
+    .line 205
+    goto/16 :goto_0
+
+    .line 206
+    .line 207
+    :sswitch_a
+    const/16 v5, 0x3e8
+
+    .line 208
+    .line 209
+    invoke-virtual {v4, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 210
+    .line 211
+    .line 212
+    move-result v4
+
+    .line 213
+    if-nez v4, :cond_e
+
+    .line 214
+    .line 215
+    goto/16 :goto_6
+
+    .line 216
+    .line 217
+    :sswitch_b
+    invoke-virtual {v4, v15}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 218
+    .line 219
+    .line 220
+    move-result v4
+
+    .line 221
+    if-nez v4, :cond_6
+
+    .line 222
+    .line 223
+    goto/16 :goto_6
+
+    .line 224
+    .line 225
+    :cond_6
+    const/16 v4, 0x2ea
+
+    .line 226
+    .line 227
+    goto/16 :goto_1
+
+    .line 228
+    .line 229
+    :sswitch_c
+    invoke-virtual {v5, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 230
+    .line 231
+    .line 232
+    move-result v5
+
+    .line 233
+    if-nez v5, :cond_7
+
+    .line 234
+    .line 235
+    goto/16 :goto_6
+
+    .line 236
+    .line 237
+    :cond_7
+    invoke-virtual {v4}, Ljava/lang/String;->hashCode()I
+
+    .line 238
+    .line 239
+    .line 240
+    move-result v5
+
+    .line 241
+    sparse-switch v5, :sswitch_data_3
+
+    .line 242
+    .line 243
+    .line 244
+    goto/16 :goto_6
+
+    .line 245
+    .line 246
+    :sswitch_d
+    invoke-virtual {v4, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 247
+    .line 248
+    .line 249
+    move-result v4
+
+    .line 250
+    if-nez v4, :cond_8
+
+    .line 251
+    .line 252
+    goto/16 :goto_6
+
+    .line 253
+    .line 254
+    :cond_8
+    mul-double v4, v1, v9
+
+    .line 255
+    .line 256
+    goto/16 :goto_7
+
+    .line 257
+    .line 258
+    :sswitch_e
+    invoke-virtual {v4, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 259
+    .line 260
+    .line 261
+    move-result v4
+
+    .line 262
+    if-nez v4, :cond_9
+
+    .line 263
+    .line 264
+    goto/16 :goto_6
+
+    .line 265
+    .line 266
+    :cond_9
+    const/16 v4, 0x3e8
+
+    .line 267
+    .line 268
+    goto/16 :goto_1
+
+    .line 269
+    .line 270
+    :sswitch_f
+    invoke-virtual {v4, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 271
+    .line 272
+    .line 273
+    move-result v4
+
+    .line 274
+    if-nez v4, :cond_17
+
+    .line 275
+    .line 276
+    goto/16 :goto_6
+
+    .line 277
+    .line 278
+    :sswitch_10
+    invoke-virtual {v4, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 279
+    .line 280
+    .line 281
+    move-result v4
+
+    .line 282
+    if-nez v4, :cond_a
+
+    .line 283
+    .line 284
+    goto/16 :goto_6
+
+    .line 285
+    .line 286
+    :cond_a
+    mul-double v4, v1, v13
+
+    .line 287
+    .line 288
+    goto/16 :goto_7
+
+    .line 289
+    .line 290
+    :sswitch_11
+    invoke-virtual {v4, v15}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 291
+    .line 292
+    .line 293
+    move-result v4
+
+    .line 294
+    if-nez v4, :cond_b
+
+    .line 295
+    .line 296
+    goto/16 :goto_6
+
+    .line 297
+    .line 298
+    :cond_b
+    const-wide v4, 0x4126c1c7bd70a3d7L    # 745699.87
+
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    goto/16 :goto_5
+
+    .line 304
+    .line 305
+    :sswitch_12
+    invoke-virtual {v5, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 306
+    .line 307
+    .line 308
+    move-result v5
+
+    .line 309
+    if-nez v5, :cond_c
+
+    .line 310
+    .line 311
+    goto/16 :goto_6
+
+    .line 312
+    .line 313
+    :cond_c
+    invoke-virtual {v4}, Ljava/lang/String;->hashCode()I
+
+    .line 314
+    .line 315
+    .line 316
+    move-result v5
+
+    .line 317
+    sparse-switch v5, :sswitch_data_4
+
+    .line 318
+    .line 319
+    .line 320
+    goto/16 :goto_6
+
+    .line 321
+    .line 322
+    :sswitch_13
+    invoke-virtual {v4, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 323
+    .line 324
+    .line 325
+    move-result v4
+
+    .line 326
+    if-nez v4, :cond_d
+
+    .line 327
+    .line 328
+    goto/16 :goto_6
+
+    .line 329
+    .line 330
+    :cond_d
+    const/16 v5, 0x3e8
+
+    .line 331
+    .line 332
+    :cond_e
+    int-to-double v4, v5
+
+    .line 333
+    goto :goto_2
+
+    .line 334
+    :sswitch_14
+    const/16 v5, 0x3e8
+
+    .line 335
+    .line 336
+    invoke-virtual {v4, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 337
+    .line 338
+    .line 339
+    move-result v4
+
+    .line 340
+    if-nez v4, :cond_f
+
+    .line 341
+    .line 342
+    goto/16 :goto_6
+
+    .line 343
+    .line 344
+    :cond_f
+    :goto_0
+    int-to-double v4, v5
+
+    .line 345
+    goto :goto_4
+
+    .line 346
+    :sswitch_15
+    invoke-virtual {v4, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 347
+    .line 348
+    .line 349
+    move-result v4
+
+    .line 350
+    if-nez v4, :cond_10
+
+    .line 351
+    .line 352
+    goto/16 :goto_6
+
+    .line 353
+    .line 354
+    :cond_10
+    div-double v4, v1, v13
+
+    .line 355
+    .line 356
+    goto/16 :goto_7
+
+    .line 357
+    .line 358
+    :sswitch_16
+    invoke-virtual {v4, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 359
+    .line 360
+    .line 361
+    move-result v4
+
+    .line 362
+    if-nez v4, :cond_17
+
+    .line 363
+    .line 364
+    goto :goto_6
+
+    .line 365
+    :sswitch_17
+    invoke-virtual {v4, v15}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 366
+    .line 367
+    .line 368
+    move-result v4
+
+    .line 369
+    if-nez v4, :cond_11
+
+    .line 370
+    .line 371
+    goto :goto_6
+
+    .line 372
+    :cond_11
+    const-wide v4, 0x3ff574bc6a7ef9dbL    # 1.341
+
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    goto :goto_4
+
+    .line 378
+    :sswitch_18
+    invoke-virtual {v5, v15}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 379
+    .line 380
+    .line 381
+    move-result v5
+
+    .line 382
+    if-nez v5, :cond_12
+
+    .line 383
+    .line 384
+    goto :goto_6
+
+    .line 385
+    :cond_12
+    invoke-virtual {v4}, Ljava/lang/String;->hashCode()I
+
+    .line 386
+    .line 387
+    .line 388
+    move-result v5
+
+    .line 389
+    sparse-switch v5, :sswitch_data_5
+
+    .line 390
+    .line 391
+    .line 392
+    goto :goto_6
+
+    .line 393
+    :sswitch_19
+    invoke-virtual {v4, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 394
+    .line 395
+    .line 396
+    move-result v4
+
+    .line 397
+    if-nez v4, :cond_13
+
+    .line 398
+    .line 399
+    goto :goto_6
+
+    .line 400
+    :cond_13
+    const/16 v4, 0x53d
+
+    .line 401
+    .line 402
+    :goto_1
+    int-to-double v4, v4
+
+    .line 403
+    :goto_2
+    mul-double/2addr v4, v1
+
+    .line 404
+    goto :goto_7
+
+    .line 405
+    :sswitch_1a
+    invoke-virtual {v4, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 406
+    .line 407
+    .line 408
+    move-result v4
+
+    .line 409
+    if-nez v4, :cond_14
+
+    .line 410
+    .line 411
+    goto :goto_6
+
+    .line 412
+    :cond_14
+    const/16 v4, 0x2ea
+
+    .line 413
+    .line 414
+    goto :goto_3
+
+    .line 415
+    :sswitch_1b
+    invoke-virtual {v4, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 416
+    .line 417
+    .line 418
+    move-result v4
+
+    .line 419
+    if-nez v4, :cond_15
+
+    .line 420
+    .line 421
+    goto :goto_6
+
+    .line 422
+    :cond_15
+    const v4, 0xb390b
+
+    .line 423
+    .line 424
+    .line 425
+    :goto_3
+    int-to-double v4, v4
+
+    .line 426
+    :goto_4
+    div-double v4, v1, v4
+
+    .line 427
+    .line 428
+    goto :goto_7
+
+    .line 429
+    :sswitch_1c
+    invoke-virtual {v4, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 430
+    .line 431
+    .line 432
+    move-result v4
+
+    .line 433
+    if-nez v4, :cond_16
+
+    .line 434
+    .line 435
+    goto :goto_6
+
+    .line 436
+    :cond_16
+    const-wide v4, 0x3ff574bc6a7ef9dbL    # 1.341
+
+    .line 437
+    .line 438
+    .line 439
+    .line 440
+    .line 441
+    :goto_5
+    mul-double/2addr v4, v1
+
+    .line 442
+    goto :goto_7
+
+    .line 443
+    :sswitch_1d
+    invoke-virtual {v4, v15}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 444
+    .line 445
+    .line 446
+    move-result v4
+
+    .line 447
+    if-nez v4, :cond_17
+
+    .line 448
+    .line 449
+    goto :goto_6
+
+    .line 450
+    :cond_17
+    move-wide v4, v1
+
+    .line 451
+    goto :goto_7
+
+    .line 452
+    :goto_6
+    const-wide/16 v4, 0x0
+
+    .line 453
+    .line 454
+    :goto_7
+    iget-object v6, v0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 455
+    .line 456
+    invoke-static {v6}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 457
+    .line 458
+    .line 459
+    check-cast v6, Lp4/c1;
+
+    .line 460
+    .line 461
+    iget-object v6, v6, Lp4/c1;->l:Lp4/i;
+
+    .line 462
+    .line 463
+    iget-object v6, v6, Lp4/i;->b:Landroid/widget/TextView;
+
+    .line 464
+    .line 465
+    invoke-virtual {v6}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
+
+    .line 466
+    .line 467
+    .line 468
+    move-result-object v6
+
+    .line 469
+    new-instance v7, Ljava/lang/StringBuilder;
+
+    .line 470
+    .line 471
+    invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 472
+    .line 473
+    .line 474
+    invoke-virtual {v7, v4, v5}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
+
+    .line 475
+    .line 476
+    .line 477
+    const-string v4, " "
+
+    .line 478
+    .line 479
+    invoke-virtual {v7, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 480
+    .line 481
+    .line 482
+    invoke-virtual {v7, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 483
+    .line 484
+    .line 485
+    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 486
+    .line 487
+    .line 488
+    move-result-object v5
+
+    .line 489
+    invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 490
+    .line 491
+    .line 492
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    .line 493
+    .line 494
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 495
+    .line 496
+    .line 497
+    invoke-virtual {v3, v1, v2}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
+
+    .line 498
+    .line 499
+    .line 500
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 501
+    .line 502
+    .line 503
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 504
+    .line 505
+    .line 506
+    move-result-object v1
+
+    .line 507
+    const-string v2, "checkInputValue"
+
+    .line 508
+    .line 509
+    invoke-static {v2, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 510
+    .line 511
+    .line 512
+    return-void
+
+    .line 513
+    :sswitch_data_0
+    .sparse-switch
+        -0x4b10f74f -> :sswitch_18
+        -0x332f7796 -> :sswitch_12
+        0xd3d4140 -> :sswitch_c
+        0x2526aea4 -> :sswitch_6
+        0x4693e1db -> :sswitch_0
+    .end sparse-switch
+
+    .line 514
+    .line 515
+    .line 516
+    .line 517
+    .line 518
+    .line 519
+    .line 520
+    .line 521
+    .line 522
+    .line 523
+    .line 524
+    .line 525
+    .line 526
+    .line 527
+    .line 528
+    .line 529
+    .line 530
+    .line 531
+    .line 532
+    .line 533
+    .line 534
+    .line 535
+    :sswitch_data_1
+    .sparse-switch
+        -0x4b10f74f -> :sswitch_5
+        -0x332f7796 -> :sswitch_4
+        0xd3d4140 -> :sswitch_3
+        0x2526aea4 -> :sswitch_2
+        0x4693e1db -> :sswitch_1
+    .end sparse-switch
+
+    .line 536
+    .line 537
+    .line 538
+    .line 539
+    .line 540
+    .line 541
+    .line 542
+    .line 543
+    .line 544
+    .line 545
+    .line 546
+    .line 547
+    .line 548
+    .line 549
+    .line 550
+    .line 551
+    .line 552
+    .line 553
+    .line 554
+    .line 555
+    .line 556
+    .line 557
+    :sswitch_data_2
+    .sparse-switch
+        -0x4b10f74f -> :sswitch_b
+        -0x332f7796 -> :sswitch_a
+        0xd3d4140 -> :sswitch_9
+        0x2526aea4 -> :sswitch_8
+        0x4693e1db -> :sswitch_7
+    .end sparse-switch
+
+    .line 558
+    .line 559
+    .line 560
+    .line 561
+    .line 562
+    .line 563
+    .line 564
+    .line 565
+    .line 566
+    .line 567
+    .line 568
+    .line 569
+    .line 570
+    .line 571
+    .line 572
+    .line 573
+    .line 574
+    .line 575
+    .line 576
+    .line 577
+    .line 578
+    .line 579
+    :sswitch_data_3
+    .sparse-switch
+        -0x4b10f74f -> :sswitch_11
+        -0x332f7796 -> :sswitch_10
+        0xd3d4140 -> :sswitch_f
+        0x2526aea4 -> :sswitch_e
+        0x4693e1db -> :sswitch_d
+    .end sparse-switch
+
+    .line 580
+    .line 581
+    .line 582
+    .line 583
+    .line 584
+    .line 585
+    .line 586
+    .line 587
+    .line 588
+    .line 589
+    .line 590
+    .line 591
+    .line 592
+    .line 593
+    .line 594
+    .line 595
+    .line 596
+    .line 597
+    .line 598
+    .line 599
+    .line 600
+    .line 601
+    :sswitch_data_4
+    .sparse-switch
+        -0x4b10f74f -> :sswitch_17
+        -0x332f7796 -> :sswitch_16
+        0xd3d4140 -> :sswitch_15
+        0x2526aea4 -> :sswitch_14
+        0x4693e1db -> :sswitch_13
+    .end sparse-switch
+
+    .line 602
+    .line 603
+    .line 604
+    .line 605
+    .line 606
+    .line 607
+    .line 608
+    .line 609
+    .line 610
+    .line 611
+    .line 612
+    .line 613
+    .line 614
+    .line 615
+    .line 616
+    .line 617
+    .line 618
+    .line 619
+    .line 620
+    .line 621
+    .line 622
+    .line 623
+    :sswitch_data_5
+    .sparse-switch
+        -0x4b10f74f -> :sswitch_1d
+        -0x332f7796 -> :sswitch_1c
+        0xd3d4140 -> :sswitch_1b
+        0x2526aea4 -> :sswitch_1a
+        0x4693e1db -> :sswitch_19
+    .end sparse-switch
+.end method
+
+.method public final onClick(Landroid/view/View;)V
+    .locals 4
+
+    .line 1
+    if-eqz p1, :cond_0
+
+    .line 2
+    .line 3
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p1
+
+    .line 7
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p1
+
+    .line 11
+    goto :goto_0
+
+    .line 12
+    :cond_0
+    const/4 p1, 0x0
+
+    .line 13
+    :goto_0
+    const/4 v0, 0x1
+
+    .line 14
+    const/4 v1, 0x0
+
+    .line 15
+    if-nez p1, :cond_1
+
+    .line 16
+    .line 17
+    goto :goto_1
+
+    .line 18
+    :cond_1
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    .line 19
+    .line 20
+    .line 21
+    move-result v2
+
+    .line 22
+    const v3, 0x7f0a014f
+
+    .line 23
+    .line 24
+    .line 25
+    if-ne v2, v3, :cond_2
+
+    .line 26
+    .line 27
+    const-string p1, "."
+
+    .line 28
+    .line 29
+    invoke-virtual {p0, p1}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment;->M(Ljava/lang/String;)V
+
+    .line 30
+    .line 31
+    .line 32
+    goto/16 :goto_f
+
+    .line 33
+    .line 34
+    :cond_2
+    :goto_1
+    if-nez p1, :cond_3
+
+    .line 35
+    .line 36
+    goto :goto_2
+
+    .line 37
+    :cond_3
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    .line 38
+    .line 39
+    .line 40
+    move-result v2
+
+    .line 41
+    const v3, 0x7f0a03b7
+
+    .line 42
+    .line 43
+    .line 44
+    if-ne v2, v3, :cond_4
+
+    .line 45
+    .line 46
+    const-string p1, "0"
+
+    .line 47
+    .line 48
+    invoke-virtual {p0, p1}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment;->M(Ljava/lang/String;)V
+
+    .line 49
+    .line 50
+    .line 51
+    goto/16 :goto_f
+
+    .line 52
+    .line 53
+    :cond_4
+    :goto_2
+    if-nez p1, :cond_5
+
+    .line 54
+    .line 55
+    goto :goto_3
+
+    .line 56
+    :cond_5
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    .line 57
+    .line 58
+    .line 59
+    move-result v2
+
+    .line 60
+    const v3, 0x7f0a0150
+
+    .line 61
+    .line 62
+    .line 63
+    if-ne v2, v3, :cond_6
+
+    .line 64
+    .line 65
+    const-string p1, "00"
+
+    .line 66
+    .line 67
+    invoke-virtual {p0, p1}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment;->M(Ljava/lang/String;)V
+
+    .line 68
+    .line 69
+    .line 70
+    goto/16 :goto_f
+
+    .line 71
+    .line 72
+    :cond_6
+    :goto_3
+    if-nez p1, :cond_7
+
+    .line 73
+    .line 74
+    goto :goto_4
+
+    .line 75
+    :cond_7
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    .line 76
+    .line 77
+    .line 78
+    move-result v2
+
+    .line 79
+    const v3, 0x7f0a0280
+
+    .line 80
+    .line 81
+    .line 82
+    if-ne v2, v3, :cond_8
+
+    .line 83
+    .line 84
+    const-string p1, "1"
+
+    .line 85
+    .line 86
+    invoke-virtual {p0, p1}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment;->M(Ljava/lang/String;)V
+
+    .line 87
+    .line 88
+    .line 89
+    goto/16 :goto_f
+
+    .line 90
+    .line 91
+    :cond_8
+    :goto_4
+    if-nez p1, :cond_9
+
+    .line 92
+    .line 93
+    goto :goto_5
+
+    .line 94
+    :cond_9
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    .line 95
+    .line 96
+    .line 97
+    move-result v2
+
+    .line 98
+    const v3, 0x7f0a038a
+
+    .line 99
+    .line 100
+    .line 101
+    if-ne v2, v3, :cond_a
+
+    .line 102
+    .line 103
+    const-string p1, "2"
+
+    .line 104
+    .line 105
+    invoke-virtual {p0, p1}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment;->M(Ljava/lang/String;)V
+
+    .line 106
+    .line 107
+    .line 108
+    goto/16 :goto_f
+
+    .line 109
+    .line 110
+    :cond_a
+    :goto_5
+    if-nez p1, :cond_b
+
+    .line 111
+    .line 112
+    goto :goto_6
+
+    .line 113
+    :cond_b
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    .line 114
+    .line 115
+    .line 116
+    move-result v2
+
+    .line 117
+    const v3, 0x7f0a036f
+
+    .line 118
+    .line 119
+    .line 120
+    if-ne v2, v3, :cond_c
+
+    .line 121
+    .line 122
+    const-string p1, "3"
+
+    .line 123
+    .line 124
+    invoke-virtual {p0, p1}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment;->M(Ljava/lang/String;)V
+
+    .line 125
+    .line 126
+    .line 127
+    goto/16 :goto_f
+
+    .line 128
+    .line 129
+    :cond_c
+    :goto_6
+    if-nez p1, :cond_d
+
+    .line 130
+    .line 131
+    goto :goto_7
+
+    .line 132
+    :cond_d
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    .line 133
+    .line 134
+    .line 135
+    move-result v2
+
+    .line 136
+    const v3, 0x7f0a0192
+
+    .line 137
+    .line 138
+    .line 139
+    if-ne v2, v3, :cond_e
+
+    .line 140
+    .line 141
+    const-string p1, "4"
+
+    .line 142
+    .line 143
+    invoke-virtual {p0, p1}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment;->M(Ljava/lang/String;)V
+
+    .line 144
+    .line 145
+    .line 146
+    goto/16 :goto_f
+
+    .line 147
+    .line 148
+    :cond_e
+    :goto_7
+    if-nez p1, :cond_f
+
+    .line 149
+    .line 150
+    goto :goto_8
+
+    .line 151
+    :cond_f
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    .line 152
+    .line 153
+    .line 154
+    move-result v2
+
+    .line 155
+    const v3, 0x7f0a018b
+
+    .line 156
+    .line 157
+    .line 158
+    if-ne v2, v3, :cond_10
+
+    .line 159
+    .line 160
+    const-string p1, "5"
+
+    .line 161
+    .line 162
+    invoke-virtual {p0, p1}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment;->M(Ljava/lang/String;)V
+
+    .line 163
+    .line 164
+    .line 165
+    goto/16 :goto_f
+
+    .line 166
+    .line 167
+    :cond_10
+    :goto_8
+    if-nez p1, :cond_11
+
+    .line 168
+    .line 169
+    goto :goto_9
+
+    .line 170
+    :cond_11
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    .line 171
+    .line 172
+    .line 173
+    move-result v2
+
+    .line 174
+    const v3, 0x7f0a0304
+
+    .line 175
+    .line 176
+    .line 177
+    if-ne v2, v3, :cond_12
+
+    .line 178
+    .line 179
+    const-string p1, "6"
+
+    .line 180
+    .line 181
+    invoke-virtual {p0, p1}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment;->M(Ljava/lang/String;)V
+
+    .line 182
+    .line 183
+    .line 184
+    goto/16 :goto_f
+
+    .line 185
+    .line 186
+    :cond_12
+    :goto_9
+    if-nez p1, :cond_13
+
+    .line 187
+    .line 188
+    goto :goto_a
+
+    .line 189
+    :cond_13
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    .line 190
+    .line 191
+    .line 192
+    move-result v2
+
+    .line 193
+    const v3, 0x7f0a02f9
+
+    .line 194
+    .line 195
+    .line 196
+    if-ne v2, v3, :cond_14
+
+    .line 197
+    .line 198
+    const-string p1, "7"
+
+    .line 199
+    .line 200
+    invoke-virtual {p0, p1}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment;->M(Ljava/lang/String;)V
+
+    .line 201
+    .line 202
+    .line 203
+    goto/16 :goto_f
+
+    .line 204
+    .line 205
+    :cond_14
+    :goto_a
+    if-nez p1, :cond_15
+
+    .line 206
+    .line 207
+    goto :goto_b
+
+    .line 208
+    :cond_15
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    .line 209
+    .line 210
+    .line 211
+    move-result v2
+
+    .line 212
+    const v3, 0x7f0a0164
+
+    .line 213
+    .line 214
+    .line 215
+    if-ne v2, v3, :cond_16
+
+    .line 216
+    .line 217
+    const-string p1, "8"
+
+    .line 218
+    .line 219
+    invoke-virtual {p0, p1}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment;->M(Ljava/lang/String;)V
+
+    .line 220
+    .line 221
+    .line 222
+    goto/16 :goto_f
+
+    .line 223
+    .line 224
+    :cond_16
+    :goto_b
+    if-nez p1, :cond_17
+
+    .line 225
+    .line 226
+    goto :goto_c
+
+    .line 227
+    :cond_17
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    .line 228
+    .line 229
+    .line 230
+    move-result v2
+
+    .line 231
+    const v3, 0x7f0a026a
+
+    .line 232
+    .line 233
+    .line 234
+    if-ne v2, v3, :cond_18
+
+    .line 235
+    .line 236
+    const-string p1, "9"
+
+    .line 237
+    .line 238
+    invoke-virtual {p0, p1}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment;->M(Ljava/lang/String;)V
+
+    .line 239
+    .line 240
+    .line 241
+    goto :goto_f
+
+    .line 242
+    :cond_18
+    :goto_c
+    if-nez p1, :cond_19
+
+    .line 243
+    .line 244
+    goto :goto_d
+
+    .line 245
+    :cond_19
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    .line 246
+    .line 247
+    .line 248
+    move-result v2
+
+    .line 249
+    const v3, 0x7f0a00d9
+
+    .line 250
+    .line 251
+    .line 252
+    if-ne v2, v3, :cond_1a
+
+    .line 253
+    .line 254
+    iget-object p1, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 255
+    .line 256
+    invoke-static {p1}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 257
+    .line 258
+    .line 259
+    check-cast p1, Lp4/c1;
+
+    .line 260
+    .line 261
+    iget-object p1, p1, Lp4/c1;->l:Lp4/i;
+
+    .line 262
+    .line 263
+    iget-object p1, p1, Lp4/i;->k:Lcom/google/android/material/textview/MaterialTextView;
+
+    .line 264
+    .line 265
+    const-string v2, ""
+
+    .line 266
+    .line 267
+    invoke-virtual {p1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 268
+    .line 269
+    .line 270
+    iget-object p1, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 271
+    .line 272
+    invoke-static {p1}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 273
+    .line 274
+    .line 275
+    check-cast p1, Lp4/c1;
+
+    .line 276
+    .line 277
+    iget-object p1, p1, Lp4/c1;->l:Lp4/i;
+
+    .line 278
+    .line 279
+    iget-object p1, p1, Lp4/i;->r:Lcom/google/android/material/textview/MaterialTextView;
+
+    .line 280
+    .line 281
+    invoke-virtual {p1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 282
+    .line 283
+    .line 284
+    goto :goto_f
+
+    .line 285
+    :cond_1a
+    :goto_d
+    if-nez p1, :cond_1b
+
+    .line 286
+    .line 287
+    goto :goto_f
+
+    .line 288
+    :cond_1b
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    .line 289
+    .line 290
+    .line 291
+    move-result p1
+
+    .line 292
+    const v2, 0x7f0a00da
+
+    .line 293
+    .line 294
+    .line 295
+    if-ne p1, v2, :cond_1d
+
+    .line 296
+    .line 297
+    iget-object p1, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 298
+    .line 299
+    invoke-static {p1}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 300
+    .line 301
+    .line 302
+    check-cast p1, Lp4/c1;
+
+    .line 303
+    .line 304
+    iget-object p1, p1, Lp4/c1;->l:Lp4/i;
+
+    .line 305
+    .line 306
+    iget-object p1, p1, Lp4/i;->k:Lcom/google/android/material/textview/MaterialTextView;
+
+    .line 307
+    .line 308
+    invoke-virtual {p1}, Landroidx/appcompat/widget/d0;->getText()Ljava/lang/CharSequence;
+
+    .line 309
+    .line 310
+    .line 311
+    move-result-object p1
+
+    .line 312
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    .line 313
+    .line 314
+    .line 315
+    move-result-object p1
+
+    .line 316
+    invoke-virtual {p1}, Ljava/lang/String;->length()I
+
+    .line 317
+    .line 318
+    .line 319
+    move-result v2
+
+    .line 320
+    if-lez v2, :cond_1c
+
+    .line 321
+    .line 322
+    move v2, v0
+
+    .line 323
+    goto :goto_e
+
+    .line 324
+    :cond_1c
+    move v2, v1
+
+    .line 325
+    :goto_e
+    if-eqz v2, :cond_1d
+
+    .line 326
+    .line 327
+    iget-object v2, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 328
+    .line 329
+    invoke-static {v2}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 330
+    .line 331
+    .line 332
+    check-cast v2, Lp4/c1;
+
+    .line 333
+    .line 334
+    iget-object v2, v2, Lp4/c1;->l:Lp4/i;
+
+    .line 335
+    .line 336
+    iget-object v2, v2, Lp4/i;->k:Lcom/google/android/material/textview/MaterialTextView;
+
+    .line 337
+    .line 338
+    invoke-static {p1}, Lj8/h;->i0(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 339
+    .line 340
+    .line 341
+    move-result-object p1
+
+    .line 342
+    invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 343
+    .line 344
+    .line 345
+    :cond_1d
+    :goto_f
+    iget-object p1, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 346
+    .line 347
+    invoke-static {p1}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 348
+    .line 349
+    .line 350
+    check-cast p1, Lp4/c1;
+
+    .line 351
+    .line 352
+    iget-object p1, p1, Lp4/c1;->l:Lp4/i;
+
+    .line 353
+    .line 354
+    iget-object p1, p1, Lp4/i;->k:Lcom/google/android/material/textview/MaterialTextView;
+
+    .line 355
+    .line 356
+    invoke-static {p1}, Lcom/google/android/datatransport/runtime/a;->c(Lcom/google/android/material/textview/MaterialTextView;)I
+
+    .line 357
+    .line 358
+    .line 359
+    move-result p1
+
+    .line 360
+    if-lez p1, :cond_1e
+
+    .line 361
+    .line 362
+    goto :goto_10
+
+    .line 363
+    :cond_1e
+    move v0, v1
+
+    .line 364
+    :goto_10
+    if-eqz v0, :cond_1f
+
+    .line 365
+    .line 366
+    :try_start_0
+    iget-object p1, p0, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/BaseFragment;->o:Lt1/e;
+
+    .line 367
+    .line 368
+    invoke-static {p1}, Lc8/g;->c(Ljava/lang/Object;)V
+
+    .line 369
+    .line 370
+    .line 371
+    check-cast p1, Lp4/c1;
+
+    .line 372
+    .line 373
+    iget-object p1, p1, Lp4/c1;->l:Lp4/i;
+
+    .line 374
+    .line 375
+    iget-object p1, p1, Lp4/i;->k:Lcom/google/android/material/textview/MaterialTextView;
+
+    .line 376
+    .line 377
+    invoke-virtual {p1}, Landroidx/appcompat/widget/d0;->getText()Ljava/lang/CharSequence;
+
+    .line 378
+    .line 379
+    .line 380
+    move-result-object p1
+
+    .line 381
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    .line 382
+    .line 383
+    .line 384
+    move-result-object p1
+
+    .line 385
+    invoke-static {p1}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
+
+    .line 386
+    .line 387
+    .line 388
+    move-result-wide v0
+
+    .line 389
+    invoke-virtual {p0, v0, v1}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/conversions/power/PowerConvertorFragment;->N(D)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 390
+    .line 391
+    .line 392
+    goto :goto_11
+
+    .line 393
+    :catch_0
+    const-string p1, "Please Enter Input Number"
+
+    .line 394
+    .line 395
+    invoke-virtual {p0, p1}, Lcom/calculatorx/simple/calculator/scientific/ui/fragments/base/FragmentGeneral;->v(Ljava/lang/String;)V
+
+    .line 396
+    .line 397
+    .line 398
+    :cond_1f
+    :goto_11
+    return-void
+.end method

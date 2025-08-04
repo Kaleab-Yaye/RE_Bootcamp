@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/main_nav_graph" app:startDestination="@id/AIMathFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/basic" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.basicCalculator.FragmentHome" android:id="@id/fragmentHome">
+        <action android:id="@id/action_fragmentHome_to_historyFragment" app:destination="@id/fragmentHistory" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_fragmentHome_to_languageDialogFragment" app:destination="@id/dialogLanguage" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_fragmentHome_to_dialogExit" app:destination="@id/dialogExit" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_fragmentHome_to_premiumFragment" app:destination="@id/fragmentPremium" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_fragmentHome_to_menuFragment" app:destination="@id/fragmentMenu" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_fragmentHome_to_allConvertorsFragment" app:destination="@id/allConvertorsFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_fragmentHome_to_scientificFragment" app:destination="@id/fragmentScientific" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="PremiumFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.premium.PremiumFragment" android:id="@id/fragmentPremium">
+        <action android:id="@id/action_fragmentPremium_to_fragmentTerms" app:destination="@id/fragmentTerms" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="HistoryFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.history.HistoryFragment" android:id="@id/fragmentHistory">
+        <action android:id="@id/action_historyFragment_to_dialogDeleteHistory" app:destination="@id/dialogDeleteHistory" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <argument android:name="workingexp" app:argType="string" app:nullable="true" />
+        <argument android:name="resultexp" app:argType="string" app:nullable="true" />
+        <action android:id="@id/action_fragmentHistory_to_dialogDeleteMath" app:destination="@id/dialogDeleteMath" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_fragmentHistory_to_solutionFragment" app:destination="@id/solutionFragment" />
+    </fragment>
+    <fragment android:label="AllConvertorsFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.AllConvertorsFragment" android:id="@id/allConvertorsFragment">
+        <action android:id="@id/action_allConvertorsFragment_to_currencyConvertorFragment" app:destination="@id/currencyConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_allConvertorsFragment_to_otherUnitsConvertorFragment" app:destination="@id/lengthConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_allConvertorsFragment_to_areaConvertorFragment" app:destination="@id/areaConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_allConvertorsFragment_to_powerConvertorFragment" app:destination="@id/powerConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_allConvertorsFragment_to_speedConvertorFragment" app:destination="@id/speedConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_allConvertorsFragment_to_pressureConvertorFragment" app:destination="@id/pressureConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_allConvertorsFragment_to_volumeConvertorFragment" app:destination="@id/volumeConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_allConvertorsFragment_to_weightConvertorFragment" app:destination="@id/weightConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_allConvertorsFragment_to_tempratureConvertorFragment" app:destination="@id/tempratureConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="ScientificFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.scientificcalculator.ScientificFragment" android:id="@id/fragmentScientific">
+        <action android:id="@id/action_scientificFragment_to_fragmentHome" app:destination="@id/fragmentHome" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_scientificFragment_to_premiumFragment" app:destination="@id/fragmentPremium" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_scientificFragment_to_fragmentMenu" app:destination="@id/fragmentMenu" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_scientificFragment_to_languageDialogFragment" app:destination="@id/dialogLanguage" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_scientificFragment_to_historyFragment" app:destination="@id/fragmentHistory" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_scientificFragment_to_dialogTheme" app:destination="@id/dialogTheme" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="CurrencyConvertorFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.currency.CurrencyConvertorFragment" android:id="@id/currencyConvertorFragment">
+        <action android:id="@id/action_currencyConvertorFragment_to_currencySelectionFragment" app:destination="@id/currencySelectionFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="LengthConvertorFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.length.LengthConvertorFragment" android:id="@id/lengthConvertorFragment">
+        <action android:id="@id/action_lengthConvertorFragment_to_lengthUnitsSelectionFragment" app:destination="@id/lengthUnitsSelectionFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="AreaConvertorFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.area.AreaConvertorFragment" android:id="@id/areaConvertorFragment">
+        <action android:id="@id/action_areaConvertorFragment_to_areaUnitSelectionFragment" app:destination="@id/areaUnitSelectionFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="PowerConvertorFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.power.PowerConvertorFragment" android:id="@id/powerConvertorFragment">
+        <action android:id="@id/action_powerConvertorFragment_to_powerUnitsSelectionFragment" app:destination="@id/powerUnitsSelectionFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="SpeedConvertorFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.speed.SpeedConvertorFragment" android:id="@id/speedConvertorFragment">
+        <action android:id="@id/action_speedConvertorFragment_to_speedUnitSelectionFragment" app:destination="@id/speedUnitSelectionFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="PressureConvertorFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.pressure.PressureConvertorFragment" android:id="@id/pressureConvertorFragment">
+        <action android:id="@id/action_pressureConvertorFragment_to_pressureUnitSelectionFragment" app:destination="@id/pressureUnitSelectionFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="TempratureConvertorFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.temprature.TemperatureConvertorFragment" android:id="@id/tempratureConvertorFragment">
+        <action android:id="@id/action_tempratureConvertorFragment_to_tempratureUnitSelectionFragment" app:destination="@id/tempratureUnitSelectionFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="WeightConvertorFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.weight.WeightConvertorFragment" android:id="@id/weightConvertorFragment">
+        <action android:id="@id/action_weightConvertorFragment_to_weightUnitSelectionFragment" app:destination="@id/weightUnitSelectionFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="VolumeConvertorFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.volume.VolumeConvertorFragment" android:id="@id/volumeConvertorFragment">
+        <action android:id="@id/action_volumeConvertorFragment_to_volumeUnitSelctionFragment" app:destination="@id/volumeUnitSelctionFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="LengthUnitsSelectionFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.length.LengthUnitsSelectionFragment" android:id="@id/lengthUnitsSelectionFragment">
+        <action android:id="@id/action_lengthUnitsSelectionFragment_to_lengthConvertorFragment" app:destination="@id/lengthConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <argument android:name="isFromUnit" app:argType="boolean" />
+    </fragment>
+    <fragment android:label="AreaUnitSelectionFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.area.AreaUnitSelectionFragment" android:id="@id/areaUnitSelectionFragment">
+        <action android:id="@id/action_areaUnitSelectionFragment_to_areaConvertorFragment" app:destination="@id/areaConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <argument android:name="isFromUnit" app:argType="boolean" />
+    </fragment>
+    <fragment android:label="CurrencySelectionFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.currency.CurrencySelectionFragment" android:id="@id/currencySelectionFragment">
+        <action android:id="@id/action_currencySelectionFragment_to_currencyConvertorFragment" app:destination="@id/currencyConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <argument android:name="isFromUnit" app:argType="boolean" />
+    </fragment>
+    <fragment android:label="PowerUnitsSelectionFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.power.PowerUnitsSelectionFragment" android:id="@id/powerUnitsSelectionFragment">
+        <action android:id="@id/action_powerUnitsSelectionFragment_to_powerConvertorFragment" app:destination="@id/powerConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <argument android:name="isFromUnit" app:argType="boolean" />
+    </fragment>
+    <fragment android:label="SpeedUnitSelectionFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.speed.SpeedUnitSelectionFragment" android:id="@id/speedUnitSelectionFragment">
+        <action android:id="@id/action_speedUnitSelectionFragment_to_speedConvertorFragment" app:destination="@id/speedConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <argument android:name="isFromUnit" app:argType="boolean" />
+    </fragment>
+    <fragment android:label="PressureUnitSelectionFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.pressure.PressureUnitSelectionFragment" android:id="@id/pressureUnitSelectionFragment">
+        <action android:id="@id/action_pressureUnitSelectionFragment_to_pressureConvertorFragment" app:destination="@id/pressureConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <argument android:name="isFromUnit" app:argType="boolean" />
+    </fragment>
+    <fragment android:label="VolumeUnitSelctionFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.volume.VolumeUnitSelectionFragment" android:id="@id/volumeUnitSelctionFragment">
+        <action android:id="@id/action_volumeUnitSelctionFragment_to_volumeConvertorFragment" app:destination="@id/volumeConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <argument android:name="isFromUnit" app:argType="boolean" />
+    </fragment>
+    <fragment android:label="WeightUnitSelectionFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.weight.WeightUnitSelectionFragment" android:id="@id/weightUnitSelectionFragment">
+        <action android:id="@id/action_weightUnitSelectionFragment_to_weightConvertorFragment" app:destination="@id/weightConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <argument android:name="isFromUnit" app:argType="boolean" />
+    </fragment>
+    <fragment android:label="TempratureUnitSelectionFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.conversions.temprature.TemperatureUnitSelectionFragment" android:id="@id/tempratureUnitSelectionFragment">
+        <action android:id="@id/action_tempratureUnitSelectionFragment_to_tempratureConvertorFragment" app:destination="@id/tempratureConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <argument android:name="isFromUnit" app:argType="boolean" />
+    </fragment>
+    <fragment android:label="MenuFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.menu.FragmentMenu" android:id="@id/fragmentMenu">
+        <action android:id="@id/action_fragmentMenu_to_allConvertorsFragment" app:destination="@id/allConvertorsFragment" />
+        <action android:id="@id/action_fragmentMenu_to_fragmentHome" app:destination="@id/fragmentHome" />
+        <action android:id="@id/action_fragmentMenu_to_AIMathFragment" app:destination="@id/AIMathFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_fragmentMenu_to_voiceCalculatorFragment" app:destination="@id/voiceCalculatorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_fragmentMenu_to_weightConvertorFragment" app:destination="@id/weightConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_fragmentMenu_to_pressureConvertorFragment" app:destination="@id/pressureConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_fragmentMenu_to_tempratureConvertorFragment" app:destination="@id/tempratureConvertorFragment" />
+        <action android:id="@id/action_fragmentMenu_to_currencyConvertorFragment" app:destination="@id/currencyConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_fragmentMenu_to_speedConvertorFragment" app:destination="@id/speedConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_fragmentMenu_to_powerConvertorFragment" app:destination="@id/powerConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_fragmentMenu_to_lengthConvertorFragment" app:destination="@id/lengthConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_fragmentMenu_to_areaConvertorFragment" app:destination="@id/lengthConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_fragmentMenu_to_volumeConvertorFragment" app:destination="@id/lengthConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_fragmentMenu_to_otherUnitsConvertorFragment" app:destination="@id/lengthConvertorFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <dialog android:label="DialogEmptyHistory" android:name="com.calculatorx.simple.calculator.scientific.ui.dialogs.DialogDeleteHistory" android:id="@id/dialogDeleteHistory">
+        <argument android:name="historyTable" android:defaultValue="@null" app:argType="com.calculatorx.simple.calculator.scientific.roomdb.tables.HistoryTable" app:nullable="true" />
+    </dialog>
+    <dialog android:label="DialogExit" android:name="com.calculatorx.simple.calculator.scientific.ui.dialogs.DialogExit" android:id="@id/dialogExit">
+        <action android:id="@id/action_dialogExit_to_premiumFragment" app:destination="@id/fragmentPremium" />
+    </dialog>
+    <dialog android:label="DialogRateUs" android:name="com.calculatorx.simple.calculator.scientific.ui.dialogs.DialogRateUs" android:id="@id/dialogRateUs" />
+    <dialog android:label="DialogTheme" android:name="com.calculatorx.simple.calculator.scientific.ui.dialogs.DialogTheme" android:id="@id/dialogTheme" />
+    <dialog android:label="DialogDeleteAll" android:name="com.calculatorx.simple.calculator.scientific.ui.dialogs.DialogDeleteAll" android:id="@id/dialogDeleteAll" />
+    <dialog android:label="fragment_dialog_delete_current" android:name="com.calculatorx.simple.calculator.scientific.ui.dialogs.DialogDeleteCurrent" android:id="@id/dialogDeleteCurrent" />
+    <dialog android:label="fragment_language_dialog" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.languages.LanguageDialogFragment" android:id="@id/dialogLanguage" />
+    <fragment android:label="AIMathFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.aiMath.AIMathFragment" android:id="@id/AIMathFragment">
+        <action android:id="@id/action_AIMathFragment_to_drawFragment" app:destination="@id/drawFragment" />
+        <action android:id="@id/action_AIMathFragment_to_solutionFragment" app:destination="@id/solutionFragment" />
+        <action android:id="@id/action_AIMathFragment_to_imageProcessingFragment" app:destination="@id/imageProcessingFragment" />
+    </fragment>
+    <fragment android:label="fragment_draw" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.aiMath.DrawFragment" android:id="@id/drawFragment">
+        <action android:id="@id/action_drawFragment_to_solutionFragment" app:destination="@id/solutionFragment" />
+    </fragment>
+    <fragment android:label="fragment_solution" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.aiMath.SolutionFragment" android:id="@id/solutionFragment">
+        <argument android:name="extractedEquation" android:defaultValue="0" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:label="VoiceCalculatorFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.voicecalculator.VoiceCalculatorFragment" android:id="@id/voiceCalculatorFragment" />
+    <fragment android:label="FeedBackFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.feedback.FeedBackFragment" android:id="@id/feedBackFragment" />
+    <fragment android:label="ImageProcessingFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.aiMath.ImageProcessingFragment" android:id="@id/imageProcessingFragment">
+        <action android:id="@id/action_imageProcessingFragment_to_solutionFragment" app:destination="@id/solutionFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <dialog android:label="DialogDeleteMath" android:name="com.calculatorx.simple.calculator.scientific.ui.dialogs.DialogDeleteMath" android:id="@id/dialogDeleteMath">
+        <argument android:name="mathTable" android:defaultValue="@null" app:argType="com.calculatorx.simple.calculator.scientific.roomdb.tables.MathTable" app:nullable="true" />
+    </dialog>
+    <fragment android:label="ManageFragment" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.premium.ManageFragment" android:id="@id/manageFragment" />
+    <fragment android:label="FragmentPrivacy" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.privacyfragment.FragmentPrivacy" android:id="@id/fragmentPrivacy" />
+    <fragment android:label="FragmentTerms" android:name="com.calculatorx.simple.calculator.scientific.ui.fragments.premium.FragmentTerms" android:id="@id/fragmentTerms" />
+</navigation>

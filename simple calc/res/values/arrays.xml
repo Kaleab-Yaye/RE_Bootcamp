@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="area_items">
+        <item>Marla</item>
+        <item>Kanal</item>
+        <item>Acre</item>
+        <item>Hectare</item>
+        <item>Guntha</item>
+        <item>Grounds</item>
+        <item>Katha</item>
+        <item>Aanakadam</item>
+        <item>Chataks</item>
+        <item>Rood</item>
+        <item>Square Feet</item>
+        <item>Square Meter</item>
+        <item>Square Yard</item>
+    </string-array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </string-array>
+    <string-array name="distance_items">
+        <item>km</item>
+        <item>mi</item>
+    </string-array>
+    <string-array name="fuel_items">
+        <item>km/l</item>
+        <item>mi/l</item>
+    </string-array>
+    <array name="preloaded_fonts">
+        <item>@font/roboto</item>
+        <item>@font/roboto_medium</item>
+    </array>
+    <string-array name="unit_area_items">
+        <item>Square centimeter (cm²)</item>
+        <item>Square decimeter (dm²)</item>
+        <item>Square meter (m²)</item>
+        <item>Are (a)</item>
+        <item>Hectare (ha)</item>
+        <item>Square kilometer (km²)</item>
+        <item>Square inch (in²)</item>
+        <item>Square foot (ft²)</item>
+        <item>Square yard (yd²)</item>
+        <item>Square mile (mi²)</item>
+        <item>Acre (ac)</item>
+    </string-array>
+    <string-array name="unit_data_size_items">
+        <item>Bit (bit)</item>
+        <item>Byte (B)</item>
+        <item>Kilobyte (KB)</item>
+        <item>Megabyte (MB)</item>
+        <item>Gigabyte (GB)</item>
+        <item>Terabyte (TB)</item>
+        <item>Petabyte (PB)</item>
+    </string-array>
+    <string-array name="unit_energy_items">
+        <item>Joule (J)</item>
+        <item>Kilojoule (kJ)</item>
+        <item>Megajoule (MJ)</item>
+        <item>Gigajoule (GJ)</item>
+        <item>Kilocalorie (kcal)</item>
+        <item>Watt second (Ws)</item>
+        <item>Watt hour (Wh)</item>
+        <item>Kilowatt hour (kWh)</item>
+        <item>Megawatt hour (MWh)</item>
+    </string-array>
+    <string-array name="unit_force_items">
+        <item>Newton (N)</item>
+        <item>Kilonewton (kN)</item>
+        <item>Dyne (dyn)</item>
+        <item>Kilo force (kgf)</item>
+        <item>Pound force (lbf)</item>
+    </string-array>
+    <string-array name="unit_length_items">
+        <item>Millimeter (mm)</item>
+        <item>Centimeter (cm)</item>
+        <item>Decimeter (dm)</item>
+        <item>Meter (m)</item>
+        <item>Kilometer (km)</item>
+        <item>Inch (in)</item>
+        <item>Foot (ft)</item>
+        <item>Yard (yd)</item>
+        <item>Mile (mile)</item>
+        <item>Nautical (nmi)</item>
+    </string-array>
+    <string-array name="unit_power_items">
+        <item>Milliwatt (mW)</item>
+        <item>Watt (W)</item>
+        <item>Kilowatt (kW)</item>
+        <item>Megawatt (MW)</item>
+        <item>Horsepower (hp)</item>
+    </string-array>
+    <string-array name="unit_pressure_items">
+        <item>Atmosphere (atm)</item>
+        <item>Torr (torr)</item>
+        <item>Pascal (pa)</item>
+        <item>Hectopascal (hPa)</item>
+        <item>Kilopascal (kPa)</item>
+        <item>Megapascal (MPa)</item>
+        <item>dyne/cm²</item>
+        <item>Millibar (mb)</item>
+        <item>Bar (bar)</item>
+        <item>kN/m²</item>
+        <item>kgf/cm²</item>
+        <item>Psi (psi)</item>
+        <item>mmHg</item>
+        <item>inchHg</item>
+    </string-array>
+    <string-array name="unit_speed_items">
+        <item>m/s</item>
+        <item>m/h</item>
+        <item>km/s</item>
+        <item>km/h</item>
+        <item>in/s</item>
+        <item>in/h</item>
+        <item>ft/s</item>
+        <item>ft/h</item>
+        <item>mi/s</item>
+        <item>mi/h</item>
+        <item>knot (kn)</item>
+        <item>Mach (mach)</item>
+    </string-array>
+    <string-array name="unit_temperature_items">
+        <item>Celsius (°C)</item>
+        <item>Fahrenheit (°F)</item>
+        <item>Kelvin (K)</item>
+        <item>Rankine (°R)</item>
+    </string-array>
+    <string-array name="unit_time_items">
+        <item>Millisecond (ms)</item>
+        <item>Second (s)</item>
+        <item>Minute (m)</item>
+        <item>Hour (h)</item>
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+    <string-array name="unit_type_items">
+        <item>Length</item>
+        <item>Weight</item>
+        <item>Area</item>
+        <item>Volume</item>
+        <item>Time</item>
+        <item>Temperature</item>
+        <item>Force</item>
+        <item>Energy</item>
+        <item>Power</item>
+        <item>Pressure</item>
+        <item>Speed</item>
+        <item>Data Size</item>
+    </string-array>
+    <string-array name="unit_volume_items">
+        <item>Milliliter (ml)</item>
+        <item>Centiliter (cl)</item>
+        <item>Deciliter (dl)</item>
+        <item>Liter (l)</item>
+        <item>Hectoliter (hl)</item>
+        <item>Kiloliter (kl)</item>
+        <item>Cubic meter (cc)</item>
+        <item>Cubic inch (in³)</item>
+        <item>Cubic foot (ft³)</item>
+        <item>Gallon (gal)</item>
+        <item>Fluid ounce (fl oz)</item>
+        <item>Barrel (bbl)</item>
+    </string-array>
+    <string-array name="unit_weight_items">
+        <item>Milligram (mg)</item>
+        <item>Gram (g)</item>
+        <item>Kilogram (kg)</item>
+        <item>Tonne (t)</item>
+        <item>Grain (gr)</item>
+        <item>Ounce (oz)</item>
+        <item>Pound (lb)</item>
+        <item>Carat (ct)</item>
+    </string-array>
+    <string-array name="wifi_items">
+        <item>Open</item>
+        <item>WEP</item>
+        <item>WPA</item>
+    </string-array>
+</resources>

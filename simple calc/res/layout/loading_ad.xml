@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/loading_ad_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:indeterminate="true" android:indeterminateTint="@color/equal_btn_bg" android:indeterminateTintMode="src_atop" android:layout_marginHorizontal="25.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/equal_btn_bg" android:layout_gravity="center" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Loading Advertisement" android:paddingHorizontal="20.0dip" />
+</LinearLayout>

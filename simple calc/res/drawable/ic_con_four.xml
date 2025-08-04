@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="65.0dip" android:width="90.0dip" android:viewportWidth="90.0" android:viewportHeight="65.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/btn_bg_color" android:pathData="M32.5,0L57.5,0A32.5,32.5 0,0 1,90 32.5L90,32.5A32.5,32.5 0,0 1,57.5 65L32.5,65A32.5,32.5 0,0 1,0 32.5L0,32.5A32.5,32.5 0,0 1,32.5 0z" />
+    <path android:fillColor="@color/btn_tv_color" android:pathData="M45.777,48.099V42.306H33.448V39.577L45.709,23.005H48.876V39.577H52.143V42.306H48.876V48.099H45.777ZM35.941,40.756L35.47,39.577H45.777V25.767L46.754,26.036L35.941,40.756Z" />
+</vector>

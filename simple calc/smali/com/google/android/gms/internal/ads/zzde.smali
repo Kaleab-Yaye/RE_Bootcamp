@@ -1,0 +1,80 @@
+.class public final Lcom/google/android/gms/internal/ads/zzde;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final zza:Lcom/google/android/gms/internal/ads/zzn;
+
+.field private static final zzb:Ljava/lang/String;
+
+.field private static final zzc:Ljava/lang/String;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    const/16 v1, 0x24
+
+    .line 3
+    .line 4
+    invoke-static {v0, v1}, Ljava/lang/Integer;->toString(II)Ljava/lang/String;
+
+    .line 5
+    .line 6
+    .line 7
+    move-result-object v0
+
+    .line 8
+    sput-object v0, Lcom/google/android/gms/internal/ads/zzde;->zzb:Ljava/lang/String;
+
+    .line 9
+    .line 10
+    const/4 v0, 0x1
+
+    .line 11
+    invoke-static {v0, v1}, Ljava/lang/Integer;->toString(II)Ljava/lang/String;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v0
+
+    .line 15
+    sput-object v0, Lcom/google/android/gms/internal/ads/zzde;->zzc:Ljava/lang/String;
+
+    .line 16
+    .line 17
+    sget-object v0, Lcom/google/android/gms/internal/ads/zzdd;->zza:Lcom/google/android/gms/internal/ads/zzdd;
+
+    .line 18
+    .line 19
+    sput-object v0, Lcom/google/android/gms/internal/ads/zzde;->zza:Lcom/google/android/gms/internal/ads/zzn;
+
+    .line 20
+    .line 21
+    return-void
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 0
+
+    const/4 p1, 0x0
+
+    throw p1
+.end method
+
+.method public final hashCode()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    throw v0
+.end method

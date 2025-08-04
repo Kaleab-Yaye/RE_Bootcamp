@@ -1,0 +1,76 @@
+.class public abstract Lp4/m2;
+.super Lt1/e;
+.source "SourceFile"
+
+
+# instance fields
+.field public final l:Landroid/widget/FrameLayout;
+
+.field public final m:Landroid/widget/TextView;
+
+.field public final n:Lcom/google/android/material/imageview/ShapeableImageView;
+
+.field public final o:Lcom/google/android/material/imageview/ShapeableImageView;
+
+.field public final p:Lcom/google/android/material/imageview/ShapeableImageView;
+
+.field public final q:Landroid/widget/TextView;
+
+.field public final r:Landroidx/constraintlayout/widget/ConstraintLayout;
+
+.field public final s:Lcom/google/android/material/imageview/ShapeableImageView;
+
+.field public final t:Landroid/widget/TextView;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Object;Landroid/view/View;Landroid/widget/FrameLayout;Landroid/widget/TextView;Lcom/google/android/material/imageview/ShapeableImageView;Lcom/google/android/material/imageview/ShapeableImageView;Lcom/google/android/material/imageview/ShapeableImageView;Landroid/widget/TextView;Landroidx/constraintlayout/widget/ConstraintLayout;Lcom/google/android/material/imageview/ShapeableImageView;Landroid/widget/TextView;)V
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    invoke-direct {p0, p1, p2, v0}, Lt1/e;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
+
+    .line 3
+    .line 4
+    .line 5
+    iput-object p3, p0, Lp4/m2;->l:Landroid/widget/FrameLayout;
+
+    .line 6
+    .line 7
+    iput-object p4, p0, Lp4/m2;->m:Landroid/widget/TextView;
+
+    .line 8
+    .line 9
+    iput-object p5, p0, Lp4/m2;->n:Lcom/google/android/material/imageview/ShapeableImageView;
+
+    .line 10
+    .line 11
+    iput-object p6, p0, Lp4/m2;->o:Lcom/google/android/material/imageview/ShapeableImageView;
+
+    .line 12
+    .line 13
+    iput-object p7, p0, Lp4/m2;->p:Lcom/google/android/material/imageview/ShapeableImageView;
+
+    .line 14
+    .line 15
+    iput-object p8, p0, Lp4/m2;->q:Landroid/widget/TextView;
+
+    .line 16
+    .line 17
+    iput-object p9, p0, Lp4/m2;->r:Landroidx/constraintlayout/widget/ConstraintLayout;
+
+    .line 18
+    .line 19
+    iput-object p10, p0, Lp4/m2;->s:Lcom/google/android/material/imageview/ShapeableImageView;
+
+    .line 20
+    .line 21
+    iput-object p11, p0, Lp4/m2;->t:Landroid/widget/TextView;
+
+    .line 22
+    .line 23
+    return-void
+.end method

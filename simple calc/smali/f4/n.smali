@@ -1,0 +1,344 @@
+.class public final Lf4/n;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final a:Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Set<",
+            "Li4/c;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final b:Ljava/util/HashSet;
+
+.field public c:Z
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Ljava/util/WeakHashMap;
+
+    .line 5
+    .line 6
+    invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-static {v0}, Ljava/util/Collections;->newSetFromMap(Ljava/util/Map;)Ljava/util/Set;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    iput-object v0, p0, Lf4/n;->a:Ljava/util/Set;
+
+    .line 14
+    .line 15
+    new-instance v0, Ljava/util/HashSet;
+
+    .line 16
+    .line 17
+    invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
+
+    .line 18
+    .line 19
+    .line 20
+    iput-object v0, p0, Lf4/n;->b:Ljava/util/HashSet;
+
+    .line 21
+    .line 22
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Li4/c;)Z
+    .locals 3
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    if-nez p1, :cond_0
+
+    .line 3
+    .line 4
+    return v0
+
+    .line 5
+    :cond_0
+    iget-object v1, p0, Lf4/n;->a:Ljava/util/Set;
+
+    .line 6
+    .line 7
+    invoke-interface {v1, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result v1
+
+    .line 11
+    iget-object v2, p0, Lf4/n;->b:Ljava/util/HashSet;
+
+    .line 12
+    .line 13
+    invoke-virtual {v2, p1}, Ljava/util/HashSet;->remove(Ljava/lang/Object;)Z
+
+    .line 14
+    .line 15
+    .line 16
+    move-result v2
+
+    .line 17
+    if-nez v2, :cond_2
+
+    .line 18
+    .line 19
+    if-eqz v1, :cond_1
+
+    .line 20
+    .line 21
+    goto :goto_0
+
+    .line 22
+    :cond_1
+    const/4 v0, 0x0
+
+    .line 23
+    :cond_2
+    :goto_0
+    if-eqz v0, :cond_3
+
+    .line 24
+    .line 25
+    invoke-interface {p1}, Li4/c;->clear()V
+
+    .line 26
+    .line 27
+    .line 28
+    :cond_3
+    return v0
+.end method
+
+.method public final b()V
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lf4/n;->a:Ljava/util/Set;
+
+    .line 2
+    .line 3
+    check-cast v0, Ljava/util/Set;
+
+    .line 4
+    .line 5
+    invoke-static {v0}, Lm4/l;->d(Ljava/util/Set;)Ljava/util/ArrayList;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    :cond_0
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 14
+    .line 15
+    .line 16
+    move-result v1
+
+    .line 17
+    if-eqz v1, :cond_2
+
+    .line 18
+    .line 19
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 20
+    .line 21
+    .line 22
+    move-result-object v1
+
+    .line 23
+    check-cast v1, Li4/c;
+
+    .line 24
+    .line 25
+    invoke-interface {v1}, Li4/c;->k()Z
+
+    .line 26
+    .line 27
+    .line 28
+    move-result v2
+
+    .line 29
+    if-nez v2, :cond_0
+
+    .line 30
+    .line 31
+    invoke-interface {v1}, Li4/c;->i()Z
+
+    .line 32
+    .line 33
+    .line 34
+    move-result v2
+
+    .line 35
+    if-nez v2, :cond_0
+
+    .line 36
+    .line 37
+    invoke-interface {v1}, Li4/c;->clear()V
+
+    .line 38
+    .line 39
+    .line 40
+    iget-boolean v2, p0, Lf4/n;->c:Z
+
+    .line 41
+    .line 42
+    if-nez v2, :cond_1
+
+    .line 43
+    .line 44
+    invoke-interface {v1}, Li4/c;->j()V
+
+    .line 45
+    .line 46
+    .line 47
+    goto :goto_0
+
+    .line 48
+    :cond_1
+    iget-object v2, p0, Lf4/n;->b:Ljava/util/HashSet;
+
+    .line 49
+    .line 50
+    invoke-virtual {v2, v1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    .line 51
+    .line 52
+    .line 53
+    goto :goto_0
+
+    .line 54
+    :cond_2
+    return-void
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-super {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v1
+
+    .line 10
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 11
+    .line 12
+    .line 13
+    const-string v1, "{numRequests="
+
+    .line 14
+    .line 15
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 16
+    .line 17
+    .line 18
+    iget-object v1, p0, Lf4/n;->a:Ljava/util/Set;
+
+    .line 19
+    .line 20
+    invoke-interface {v1}, Ljava/util/Set;->size()I
+
+    .line 21
+    .line 22
+    .line 23
+    move-result v1
+
+    .line 24
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 25
+    .line 26
+    .line 27
+    const-string v1, ", isPaused="
+
+    .line 28
+    .line 29
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 30
+    .line 31
+    .line 32
+    iget-boolean v1, p0, Lf4/n;->c:Z
+
+    .line 33
+    .line 34
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    .line 35
+    .line 36
+    .line 37
+    const-string v1, "}"
+
+    .line 38
+    .line 39
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 40
+    .line 41
+    .line 42
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 43
+    .line 44
+    .line 45
+    move-result-object v0
+
+    .line 46
+    return-object v0
+.end method

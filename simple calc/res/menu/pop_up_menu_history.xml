@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_nav_theme" android:id="@id/action_theme" android:title="@string/theme" app:iconTint="@color/menu_icon" />
+    <item android:icon="@drawable/ic_nav_language" android:id="@id/action_language" android:title="@string/language" app:iconTint="@color/menu_icon" />
+    <item android:icon="@drawable/ic_nav_shareapp" android:id="@id/action_shareApp" android:title="@string/share_app" app:iconTint="@color/menu_icon" />
+    <item android:icon="@drawable/ic_nav_rate" android:id="@id/action_RateUs" android:title="@string/rate_us" app:iconTint="@color/menu_icon" />
+    <item android:icon="@drawable/ic_nav_privacy_policy" android:id="@id/action_PrivacyPolicy" android:title="@string/privacy_policy" app:iconTint="@color/menu_icon" />
+    <item android:icon="@drawable/ic_nav_premium" android:id="@id/action_Premium" android:title="@string/premium" app:iconTint="@color/menu_icon" />
+</menu>

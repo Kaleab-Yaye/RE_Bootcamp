@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_unit_area__0" android:pathData="M5.111,4H9.555C10.169,4 10.667,4.498 10.667,5.111V9.555C10.667,10.169 10.169,10.667 9.555,10.667H5.111C4.498,10.667 4,10.169 4,9.555V5.111C4,4.498 4.498,4 5.111,4Z" />
+    <path android:fillColor="@drawable/$ic_unit_area__1" android:pathData="M38.445,4H42.889C43.502,4 44,4.498 44,5.111V9.555C44,10.169 43.502,10.667 42.889,10.667H38.445C37.831,10.667 37.333,10.169 37.333,9.555V5.111C37.333,4.498 37.831,4 38.445,4Z" />
+    <path android:fillColor="@drawable/$ic_unit_area__2" android:pathData="M5.111,37.333H9.555C10.169,37.333 10.667,37.831 10.667,38.444V42.889C10.667,43.502 10.169,44 9.555,44H5.111C4.498,44 4,43.502 4,42.889V38.444C4,37.831 4.498,37.333 5.111,37.333Z" />
+    <path android:fillColor="@drawable/$ic_unit_area__3" android:pathData="M38.445,37.333H42.889C43.502,37.333 44,37.831 44,38.444V42.889C44,43.502 43.502,44 42.889,44H38.445C37.831,44 37.333,43.502 37.333,42.889V38.444C37.333,37.831 37.831,37.333 38.445,37.333Z" />
+    <path android:fillColor="@drawable/$ic_unit_area__4" android:pathData="M34,39.555H14C13.386,39.555 12.889,40.053 12.889,40.667C12.889,41.28 13.386,41.778 14,41.778H34C34.613,41.778 35.111,41.28 35.111,40.667C35.111,40.053 34.613,39.555 34,39.555Z" />
+    <path android:fillColor="@drawable/$ic_unit_area__5" android:pathData="M41.778,34V14C41.778,13.386 41.28,12.889 40.667,12.889C40.053,12.889 39.556,13.386 39.556,14V34C39.556,34.613 40.053,35.111 40.667,35.111C41.28,35.111 41.778,34.613 41.778,34Z" />
+    <path android:fillColor="@drawable/$ic_unit_area__6" android:pathData="M34,6.222H14C13.386,6.222 12.889,6.72 12.889,7.333C12.889,7.947 13.386,8.445 14,8.445H34C34.613,8.445 35.111,7.947 35.111,7.333C35.111,6.72 34.613,6.222 34,6.222Z" />
+    <path android:fillColor="@drawable/$ic_unit_area__7" android:pathData="M8.445,34V14C8.445,13.386 7.947,12.889 7.333,12.889C6.72,12.889 6.222,13.386 6.222,14V34C6.222,34.613 6.72,35.111 7.333,35.111C7.947,35.111 8.445,34.613 8.445,34Z" />
+    <path android:fillColor="@drawable/$ic_unit_area__8" android:pathData="M23.449,14.145L16.026,18.386L24,22.736L31.973,18.386L24.551,14.145C24.21,13.95 23.79,13.95 23.449,14.145Z" />
+    <path android:fillColor="@drawable/$ic_unit_area__9" android:pathData="M15.111,28.444C15.112,28.843 15.325,29.212 15.671,29.41L22.889,33.534V24.66L15.111,20.417V28.444Z" />
+    <path android:fillColor="@drawable/$ic_unit_area__10" android:pathData="M32.329,29.41C32.675,29.212 32.888,28.843 32.889,28.445V20.416L25.111,24.658V33.535L32.329,29.41Z" />
+</vector>
